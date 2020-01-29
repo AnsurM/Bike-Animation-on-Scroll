@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: olivedrab;
+}
+
+.parent {
+  height: 400vh;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  position: fixed;
+}
+
+.scenery {
+  width: 100%;
+}
+
+.scenery img {
+  height: 75vh;
+  width: 150vw;
+  display: block;
+  transition: transform 0.3s;
+}
+
+.bike {
+  top: 351px;
+  left: 2vw;
+  width: 20vh;
+  position: fixed;
+  transition: transform 1s;
+}
+
+.bike svg {
+  width: 100%;
+}
+
+.road-image {
+  width: 100vw;
+  height: 25vh;
+}
+
+@media (min-width: 1024px) {
+  .bike {
+    top: 935px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .bike {
+    top: 445px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .bike {
+    top: 353px;
+  }
+}
+
+@media (min-width: 1900px) {
+  .bike {
+    top: 685px;
+  }
+}
