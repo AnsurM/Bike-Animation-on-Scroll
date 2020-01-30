@@ -29,8 +29,12 @@ body {
   transition: transform 0.3s;
 }
 
+.road {
+  position: relative;
+}
+
 .bike {
-  top: 351px;
+  bottom: 3vh;
   left: 2vw;
   width: 20vh;
   position: fixed;
@@ -39,6 +43,7 @@ body {
 
 .bike svg {
   width: 100%;
+  height: 18vh;
 }
 
 .road-image {
@@ -46,7 +51,7 @@ body {
   height: 25vh;
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .bike {
     top: 935px;
   }
@@ -68,4 +73,29 @@ body {
   .bike {
     top: 685px;
   }
+} */
+
+
+/* @media (min-width: 1024px) {
+  .bike {
+    top: 935px;
+  }
 }
+
+@media (min-width: 1280px) {
+  .bike {
+    top: 445px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .bike {
+    top: 353px;
+  }
+}
+
+@media (min-width: 1900px) {
+  .bike {
+    top: 685px;
+  }
+} */
